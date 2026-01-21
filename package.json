@@ -1,0 +1,26 @@
+{
+  "name": "cp-progress-tracker",
+  "version": "1.0.0",
+  "description": "Track competitive programming progress across 10+ platforms",
+  "scripts": {
+    "dev": "echo 'Extension ready for development. Load in chrome://extensions/'",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "package": "zip -r cp-progress-tracker.zip . -x '*.git*' -x '*node_modules*' -x '*.DS_Store' -x 'package*.json'",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "competitive-programming",
+    "codeforces",
+    "leetcode",
+    "atcoder",
+    "browser-extension",
+    "progress-tracker"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}

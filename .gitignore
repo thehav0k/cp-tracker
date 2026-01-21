@@ -1,0 +1,34 @@
+# Ignore node modules
+node_modules/
+
+# Ignore build artifacts
+*.zip
+dist/
+build/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+
+# Ignore test coverage
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.temp
